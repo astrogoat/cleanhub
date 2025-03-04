@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Cleanhub\Tests;
 
+use Astrogoat\Cleanhub\CleanhubServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Cleanhub\CleanhubServiceProvider;
 
 class TestCase extends Orchestra
 {

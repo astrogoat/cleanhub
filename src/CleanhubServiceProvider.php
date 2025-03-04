@@ -2,10 +2,10 @@
 
 namespace Astrogoat\Cleanhub;
 
+use Astrogoat\Cleanhub\Settings\CleanhubSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\Apps\AppPackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Astrogoat\Cleanhub\Settings\CleanhubSettings;
 
 class CleanhubServiceProvider extends AppPackageServiceProvider
 {
