@@ -7,13 +7,11 @@ use Illuminate\Validation\Rule;
 
 class CleanhubSettings extends AppSettings
 {
-    public string $url;
     public string $client_id;
 
     public function rules(): array
     {
         return [
-            'url' => Rule::requiredIf($this->enabled === true),
             'client_id' => Rule::requiredIf($this->enabled === true),
         ];
     }

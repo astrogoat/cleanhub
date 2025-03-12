@@ -2,7 +2,7 @@
         !blank(settings(Astrogoat\Cleanhub\Settings\CleanhubSettings::class, 'client_id')))
     @push('strata:frontend:end')
         @once
-            <script type="text/javascript" src="{{ settings(Astrogoat\Cleanhub\Settings\CleanhubSettings::class, 'url') }}">
+            <script type="text/javascript" src="https://cdn.cleanhub.io/embed/CleanhubBanner.js">
             </script>
         @endonce
         <script type="text/javascript">
