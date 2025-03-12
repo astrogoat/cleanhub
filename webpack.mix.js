@@ -18,8 +18,8 @@ const mix = require('laravel-mix');
  |
  */
 
-// mix
-    // .postCss('resources/css/cleanhub.css', 'css', [require('tailwindcss')('tailwind.config.js')])
+mix
+    .postCss('resources/css/cleanhub.css', 'css', [require('tailwindcss')('tailwind.config.js')])
     // .js('resources/js/cleanhub.js', 'js')
-    // .version()
-    // .setPublicPath('public/')
+    .version()
+    .setPublicPath('public/')
